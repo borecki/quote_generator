@@ -1,0 +1,89 @@
+body {
+	font-family: Roboto;
+	background-color: #333;
+}
+h1 {
+	margin-top: 20px;
+	margin-bottom: 3px;
+	font-weight: 600;
+	color: white;
+}
+h2 {
+	font-weight: 300;
+	margin-bottom: 20px;
+	color: white;
+}
+.quotes {
+	margin-top: 35px;
+	background-color: white;
+	border-radius: 5px;
+	height: 200%;
+	display: flex;
+	align-items: center;
+	justify-content : center;
+}
+.quote {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 29px;
+	font-size: 25px;
+}
+.author {
+	font-size: 16px;
+	color: #79797c;
+	margin-bottom: 30px;
+}
+.social {
+	margin-top: 10px;
+}
+h3 {
+	font-size: 16px;
+	font-weight: 600;
+	color: white;
+}
+.button_pop {
+	height: 50px;
+	font-size: 18px;
+	margin-top: 60px;
+}
+.modal-title {
+	color: #505053;
+	font-variant: small-caps;
+}
+.modal p {
+	color: #79797c;
+}
+.modal-body p:last-child {
+	font-variant: small-caps;
+}
+.modal button {
+	font-variant: small-caps;
+}
+.credits {
+	bottom: 0px;
+	position: absolute;
+	left: 10%;
+	width: 80%;
+}
+.border {
+	border-top: 1px solid #505053;
+}
+.coder p {
+	color: white;
+	margin: 7px 0 7px 0;
+}
+.apiInfo {
+	text-align: right;
+}
+@media (max-width:991px) {
+	.apiInfo {
+	text-align: center;
+	}
+}
+
+@media (max-height: 930px) {
+	.credits {
+		top: 25px;
+		position: relative;
+	}
+}
