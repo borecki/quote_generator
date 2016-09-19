@@ -13,10 +13,10 @@
 		})
 	});
 	var quote;
-	var colors = ["#B26F8F", "#FFE619", "#FF007A", "#14B3CC", "#096BB2" ]; 
+	var colors = ["#B26F8F", "#FFE619", "#FF007A", "#14B3CC", "#61b9f9" ]; 
 	function getQuote() {
 		$.ajax({
-			url: "http://api.forismatic.com/api/1.0/",
+			url: "https://api.forismatic.com/api/1.0/",
 			jsonp: "jsonp",
 			dataType: "jsonp",
 			data: {
@@ -76,7 +76,6 @@ $(document).ready(function() {
 		});	
 	
 	$('#facebook').on("click", function() {
-		//window.open("https://www.facebook.com/sharer/sharer.php?u=interia.pl&quote=lol")
 		window.open("https://www.facebook.com/dialog/share?app_id=184484190795&display=popup&e2e=%7B%7D&href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2F&locale=en_US&mobile_iframe=false&next=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FLJ9CfGDsgQ7.js%3Fversion%3D42%23cb%3Dfc695b77c98c68%26domain%3Dwww.fbrell.com%26origin%3Dhttp%253A%252F%252Fwww.fbrell.com%252Ff41e77777b306%26relation%3Dopener%26frame%3Dfa8c7ad71d1874%26result%3D%2522xxRESULTTOKENxx%2522&sdk=joey&quote=\""+quote.quoteText+ "\" Author: "+quote.quoteAuthor)
 		});		
 

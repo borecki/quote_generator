@@ -9,7 +9,7 @@ This app generates and displays random quote and its author and enable to share 
 * forismatic API
 
 ## Demo
-cooming soon
+<a href="https://borecki.github.io/quote_generator/">live priview available here</a>
 
 ## ScreenShots
 ![ScreenShot](http://i.imgur.com/zeZ7elf.jpg)
