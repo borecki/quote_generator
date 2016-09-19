@@ -16,7 +16,7 @@
 	var colors = ["#B26F8F", "#FFE619", "#FF007A", "#14B3CC", "#61b9f9" ]; 
 	function getQuote() {
 		$.ajax({
-			url: "https://api.forismatic.com/api/1.0/",
+			url: "https://crossorigin.me/http://api.forismatic.com/api/1.0/",
 			jsonp: "jsonp",
 			dataType: "jsonp",
 			data: {
