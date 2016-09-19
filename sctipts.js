@@ -25,6 +25,12 @@
 				format: "jsonp"
 			},
 			success: function(apiResponse) {
+				var color = Math.floor(Math.random() * colors.length);
+				$("html body").css({
+        			backgroundColor: colors[color],
+        			color: colors[color]
+				}, 1000);
+	
 				quote = apiResponse;
 			$(".quote").animate({
 				opacity: 0
@@ -51,12 +57,6 @@
 				});
 			},		
 		})
-
-	var color = Math.floor(Math.random() * colors.length);
-		$("html body").css({
-        	backgroundColor: colors[color],
-        	color: colors[color]
-		}, 1000);
 	}
 
 $(document).ready(function() {
